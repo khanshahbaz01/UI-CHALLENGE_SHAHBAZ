@@ -468,36 +468,22 @@ margin-left: 100px;
       margin-left: 350px;
    }
   
-   .Airways {
-      height: 250px;
-      width: 1350px;
-      display: flex;
-      justify-content: space-evenly;
-      margin-left: 70px;
-      padding: 10px;
-   }
-
-   .boex{
-      width: 300.14px;
-      height: 200.66px;
-      margin-left: -10px;
+   .company{
+      height: 200px;
+      width: 1300px;
       border: 2px solid black;
-      border: transparent;
-      background-color: rgb(255, 255, 255);
-      margin: 5px;
+  
       
-      
-   }
-
-
-   .box-imgs {
-    width: 250px;
-    height: 190.11px;
-    background-size: cover;
-    margin-left: -40px;
-    align-items: center;
-   }
-   
+    }
+    .logol {
+      width: 150px;
+      height: 100px;
+    }
+    .logopvt{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 50px;
+    }
    .subcribe {
       height: 500px;
       width: 1300px;
