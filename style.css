@@ -5,7 +5,8 @@
    display: flex;
    align-items: center;
    margin-left: -100px;
-
+   position: fixed;
+   width: 1500px;
 
 }
 
@@ -28,9 +29,9 @@
 }
 
 
-.border:hover {
-   border: 2px solid rgb(70, 0, 0);
-}
+/* .border:hover { */
+   /* border: 2px solid rgb(70, 0, 0); */
+/* } */
 
 
 .nav-destination {
@@ -66,7 +67,7 @@
 .nav-sing {
    align-items: center;
    margin-left: 100px;
-   width: 60px;
+   width: 65px;
 
 
 }
@@ -96,7 +97,7 @@
    width: 850px;
    position: absolute;
    top: 50px;
-   right: -60px;
+   right: -80px;
 
 
 
@@ -106,7 +107,7 @@
    height: 800px;
    width: 750px;
    position: absolute;
-   left: 14px;
+   left: 9px;
 
 }
 
@@ -118,7 +119,7 @@
    width: 950px;
    position: absolute;
    left: 450px;
-   margin-top: 20px;
+   margin-top: 50px;
    margin-left: 30px;
 
 }
@@ -198,15 +199,16 @@
    background-color: white;
    display: flex;
    justify-content: space-evenly;
-   margin-left: 20px;
-   width: 1500px;
+   margin-left: 100px;
+   width: 1300px;
    height: 400px;
+
 
 }
 
 .box {
    width: 250.14px;
-   height: 250.66px;
+   height: 270.66px;
    top: 1521.66px;
    left: 54.66px;
    border-radius: 47.88px 0px 0px 0px;
@@ -215,10 +217,14 @@
    margin-left: 20px;
    border: 2px solid black;
    border: transparent;
+   box-shadow: 5px 10px 15px rgb(22, 14, 14);
+   padding: 0 20px 0 40px;
 
 
 }
-
+.box:hover {
+   box-shadow: 10px 10px 25px darkgoldenrod  ;
+}
 
 
 .box-img {
@@ -227,29 +233,29 @@
    margin-top: 5px;
    background-size: cover;
 
-
 }
 
 .area {
-
+   width: 1300px;
    display: flex;
    align-items: center;
    justify-content: center;
    font-family: Arial, Helvetica, sans-serif;
    font-size: large;
-   top: 100px;
+   top: 50px;
    position: relative;
-   ;
+   margin-left: 100px;
+
 }
 
 .top-area {
    height: 500px;
-   width: 1000px;
+   width: 1300px;
    background-color: rgb(255, 255, 255);
    display: flex;
    justify-content: space-evenly;
-   margin-left: 250px;
-   top: 2120px;
+   margin-left: 100px;
+   margin-top: -50px;
 }
 
 .box0 {
@@ -478,6 +484,7 @@
    height: 200px;
    width: 1300px;
    border: 2px solid black;
+   border: transparent;
    margin-left: 100px;
 
 
@@ -495,7 +502,7 @@
 }
 
 .subcribe {
-   height: 500px;
+   height: 400px;
    width: 1300px;
    margin-top: 30px;
    margin-left: 100px;
@@ -513,7 +520,7 @@
 }
 
 .share {
-   margin-left: 1200px;
+   margin-left: 1250px;
    margin-top: -20px;
 }
 
@@ -522,27 +529,43 @@
    width: 150px;
    margin-top: 200px;
    margin-left: 700px;
-   border-radius: 10%;
+   border-radius: 10px;
    background-color: red;
    font-size: medium;
 }
 
 .email {
-   height: 50px;
+   height: 55px;
    width: 350px;
-   margin-left: 300px;
-   margin-top: -50px;
-   align-items: center;
+   margin-left: 345px;
+   margin-top: -52px;
+   background-color: white;
+   position: absolute;
+   border-radius: 10px;
+}
 
+.emails {
+   margin-top: -100px;
+   position: absolute;
+   margin-left: 80px;
+   font-size: x-large;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 .keys {
    margin-right: 300px;
+   margin-bottom: 60px;
+   background-color: white;
+}
+
+.png {
+   height: 70px;
+   width: 70px;
 }
 
 .foot {
-   height: 500px;
+   height: 400px;
    width: 1300px;
    margin-top: 100px;
 }
