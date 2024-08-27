@@ -17,7 +17,7 @@
 }
 
 .logo {
-   background-image: url("Logo.png");
+   background-image: url("asset/Logo.png");
    background-size: cover;
    height: 50px;
    width: 150px;
@@ -113,7 +113,7 @@
 
 .hero-section {
 
-   background-image: url("image.png");
+   background-image: url("asset/image.png");
    background-size: cover;
    height: 950px;
    width: 950px;
