@@ -108,6 +108,7 @@
    width: 750px;
    position: absolute;
    left: 9px;
+   display: flex;
 
 }
 
