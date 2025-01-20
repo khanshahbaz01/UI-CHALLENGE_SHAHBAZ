@@ -98,14 +98,14 @@
    position: absolute;
    top: 50px;
    right: -80px;
-
+   display: flex;
 
 
 }
 
 .corner {
    height: 800px;
-   width: 750px;
+   width: 830px;
    position: absolute;
    left: 9px;
    display: flex;
